@@ -1,0 +1,59 @@
+# Archivos y carpetas de Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Dd]ebug/
+
+# Archivos de configuración de usuario de Unity
+UserSettings/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.userprefs
+*.booproj
+*.svd
+
+# Archivos de paquetes
+Packages/packages.lock.json
+Packages/com.unity.ide/
+Packages/com.unity.visualstudio/
+
+# Archivos de caché de paquetes
+[Ll]ibrary/PackageCache/
+[Ll]ibrary/ArtifactDB/
+
+# Archivos de análisis y profiling
+Assets/StreamingAssets/Analytics/
+Assets/StreamingAssets/UnityAnalytics/
+
+# Ignorar archivos generados por la compilación de iOS
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.pbxproj
+
+# Ignorar archivos de compilación de Android
+*.apk
+*.aab
+*.keystore
+
+# Ignorar archivos de caché de LFS
+*.lfs
+
+# Ignorar archivos de logs de la consola
+*.log
+
+# Ignorar archivos de metadatos
+*.meta
+
+# Ignorar carpetas temporales de Unity
+*.tmp
+*.temp
+*.bak
+*.swp
