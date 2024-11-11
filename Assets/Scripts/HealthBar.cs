@@ -9,12 +9,14 @@ public class HealthBar : MonoBehaviour
     public Slider healthBar;  // Asigna el slider de la barra de vida en el inspector
     private float currentHealth;
     private Image fillImage;
+    private GameManager gameManager;
     
     void Start()
     {
         currentHealth = maxHealth;
         fillImage = healthBar.fillRect.GetComponent<Image>(); // Accede al componente de imagen
         UpdateHealthBar();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     public void TakeDamage(float amount)
@@ -46,6 +48,14 @@ public class HealthBar : MonoBehaviour
     void Die()
     {
         Debug.Log($"{gameObject.name} ha muerto.");
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        if (gameObject.CompareTag("Player"))
+        {
+            gameManager.HandleLoss();
+        }
+        else if(gameObject.CompareTag("Enemy"))
+        {
+            gameManager.LoadNextLevel();
+        }
     }
 }

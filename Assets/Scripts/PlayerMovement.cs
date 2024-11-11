@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float attackDamage = 10f; // Daño de ataque del jugador
     public float attackRange = 1.5f; // Rango de ataque del jugador
+    public float defenseMultiplier = 1f; //Multiplicador de defensa
     
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -76,7 +77,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        healthBar.TakeDamage(damage);
+        float finalDamage=damage*defenseMultiplier;
+        healthBar.TakeDamage(finalDamage);
     }
 
     void OnDrawGizmosSelected()
