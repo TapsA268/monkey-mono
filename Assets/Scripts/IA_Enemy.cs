@@ -13,6 +13,7 @@ public class IA_Enemy : MonoBehaviour
     private HealthBar healthBar;
     private float attackTimer = 0f;
     private Animator animator;
+    private bool isAttacking = false;
     
     void Start()
     {
@@ -32,6 +33,7 @@ public class IA_Enemy : MonoBehaviour
                 {
                     animator.SetBool("isAttacking",true);
                     animator.SetBool("isWalking", false);
+                    isAttacking = true;
                     AttackPlayer();
                     attackTimer = attackCooldown;
                 }                
@@ -41,6 +43,7 @@ public class IA_Enemy : MonoBehaviour
                 MoveTowardsPlayer();
                 animator.SetBool("isWalking", true);
                 animator.SetBool("isAttacking", false);
+                isAttacking = false;
             }
 
             attackTimer -= Time.deltaTime;
@@ -82,6 +85,7 @@ public class IA_Enemy : MonoBehaviour
     void EndAttack()
     {
         animator.SetBool("isAttacking",false);
+        isAttacking = false;
     }
 
     public void TakeDamage(float damage)

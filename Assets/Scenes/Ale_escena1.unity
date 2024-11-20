@@ -1450,7 +1450,7 @@ MonoBehaviour:
   moveSpeed: 5
   attackRange: 1.5
   attackCooldown: 1
-  enemyAttackDamage: 25
+  enemyAttackDamage: 35
 --- !u!114 &1006855859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7496,7 +7496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  attackDamage: 15
+  attackDamage: 2
   attackRange: 1.5
   defenseMultiplier: 1
 --- !u!50 &2141011174
@@ -7558,7 +7558,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.10028094, y: 0.07713914}
+  m_Offset: {x: -0.074324846, y: 0.051183343}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7569,7 +7569,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9005619, y: 2.1542783}
+  m_Size: {x: 1.9524741, y: 2.1023667}
   m_EdgeRadius: 0
 --- !u!114 &2141011176
 MonoBehaviour:

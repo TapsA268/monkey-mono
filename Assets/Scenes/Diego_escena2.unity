@@ -1514,7 +1514,7 @@ MonoBehaviour:
   moveSpeed: 5
   attackRange: 1.5
   attackCooldown: 1
-  enemyAttackDamage: 25
+  enemyAttackDamage: 35
 --- !u!61 &1389477214
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2332,7 +2332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  attackDamage: 10
+  attackDamage: 2
   attackRange: 1.5
   defenseMultiplier: 1
 --- !u!50 &2044977379
