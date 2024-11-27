@@ -14,11 +14,14 @@ public class IA_Enemy : MonoBehaviour
     private float attackTimer = 0f;
     private Animator animator;
     private bool isAttacking = false;
+    private AudioSource audioSource;
+    public AudioClip audioClip;
     
     void Start()
     {
         healthBar = GetComponent<HealthBar>();
         animator = GetComponent<Animator>();
+        audioSource =GetComponent<AudioSource>();
     }
 
     void Update()
@@ -90,6 +93,7 @@ public class IA_Enemy : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        audioSource.PlayOneShot(audioClip);
         healthBar.TakeDamage(damage);
     }
 }

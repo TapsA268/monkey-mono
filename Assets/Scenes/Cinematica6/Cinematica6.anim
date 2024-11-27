@@ -22,36 +22,36 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 21300000, guid: 926540ec022531c49b5c4b6f4cc8542c, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: c368382b25c922245904a404333eb980, type: 3}
     - time: 1
-      value: {fileID: 21300000, guid: 4e1e520dd53e5274daad1354f61637c4, type: 3}
-    - time: 1.5
-      value: {fileID: 21300000, guid: 8b8b5eb3d87b6cc49a8c55499c0ee886, type: 3}
+      value: {fileID: 21300000, guid: c368382b25c922245904a404333eb980, type: 3}
     - time: 2
-      value: {fileID: 21300000, guid: 25c3ab1fa172f48479ae0d59f7c0c204, type: 3}
-    - time: 2.5
-      value: {fileID: 21300000, guid: e39790bc2a7724e4a8176c2d63c32695, type: 3}
+      value: {fileID: 21300000, guid: 4e1e520dd53e5274daad1354f61637c4, type: 3}
     - time: 3
-      value: {fileID: 21300000, guid: d6565c5cefb31de46b75f608a8e0ef72, type: 3}
-    - time: 3.5
-      value: {fileID: 21300000, guid: b70d9dd452af5594e93f958cec2641bf, type: 3}
+      value: {fileID: 21300000, guid: 8b8b5eb3d87b6cc49a8c55499c0ee886, type: 3}
     - time: 4
-      value: {fileID: 21300000, guid: c011f077fc63cfd428dab8b1d068b8f0, type: 3}
-    - time: 4.5
-      value: {fileID: 21300000, guid: c98eea7886895ea41bb0f00afd7d61e2, type: 3}
+      value: {fileID: 21300000, guid: 25c3ab1fa172f48479ae0d59f7c0c204, type: 3}
     - time: 5
-      value: {fileID: 21300000, guid: 30197f26687596b43a044a4d3b3e1955, type: 3}
-    - time: 5.5
-      value: {fileID: 21300000, guid: 423806cb81c274e419bb16f8a98cd94f, type: 3}
+      value: {fileID: 21300000, guid: e39790bc2a7724e4a8176c2d63c32695, type: 3}
     - time: 6
+      value: {fileID: 21300000, guid: d6565c5cefb31de46b75f608a8e0ef72, type: 3}
+    - time: 7
+      value: {fileID: 21300000, guid: b70d9dd452af5594e93f958cec2641bf, type: 3}
+    - time: 8
+      value: {fileID: 21300000, guid: c011f077fc63cfd428dab8b1d068b8f0, type: 3}
+    - time: 9
+      value: {fileID: 21300000, guid: c98eea7886895ea41bb0f00afd7d61e2, type: 3}
+    - time: 10
+      value: {fileID: 21300000, guid: 30197f26687596b43a044a4d3b3e1955, type: 3}
+    - time: 11
+      value: {fileID: 21300000, guid: 423806cb81c274e419bb16f8a98cd94f, type: 3}
+    - time: 12
       value: {fileID: 21300000, guid: a629e88e69120e0469ec027d4a3d5525, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 2
+  m_SampleRate: 1
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -86,7 +86,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 6.5
+    m_StopTime: 13
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -105,4 +105,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 12
+    functionName: CambiarTransicion
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

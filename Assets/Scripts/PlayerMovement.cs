@@ -14,12 +14,15 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private HealthBar healthBar;
     private bool isAttacking = false;
+    private AudioSource audioSource;
+    public AudioClip audioClip;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         healthBar = GetComponent<HealthBar>();
+        audioSource =GetComponent<AudioSource>();
     }
 
     void Update()
@@ -78,6 +81,7 @@ public class PlayerMovement : MonoBehaviour
     public void TakeDamage(float damage)
     {
         float finalDamage=damage*defenseMultiplier;
+        audioSource.PlayOneShot(audioClip);
         healthBar.TakeDamage(finalDamage);
     }
 

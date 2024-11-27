@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/PantallaInicial.unity
     guid: d344361450336c74d8accca519b659dc
@@ -38,4 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Transicion6.unity
     guid: 3d2a17379c372064a998810b8e953bec
+  - enabled: 1
+    path: Assets/Scenes/Transicion7.unity
+    guid: 2eaa06f4ed228b245a02233a77c093ea
+  - enabled: 1
+    path: Assets/Scenes/Fidel_escena4.unity
+    guid: 39b265e0af82a654a81b4cfa55c849fd
+  - enabled: 1
+    path: Assets/Scenes/Transicion8.unity
+    guid: f98bc1286206170419d6575c3ca0d8ab
+  - enabled: 1
+    path: Assets/Scenes/Fin.unity
+    guid: 2435c16c1b6573c44831ed694f5d7ef7
   m_configObjects: {}

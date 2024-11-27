@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cinematica3
+  m_Name: cinematica8
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,17 +21,19 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: a45186e1596b0e942b07bcf7fcb8c39b, type: 3}
+      value: {fileID: 21300000, guid: 01d78c1d13d87fc47a3a374b3fcc143b, type: 3}
     - time: 1
-      value: {fileID: 21300000, guid: 17158d2b8a06ac94aa07d6ebf180934c, type: 3}
+      value: {fileID: 21300000, guid: 1f24b7745cf21274298b2d5f8b8181ad, type: 3}
     - time: 2
-      value: {fileID: 21300000, guid: e1bd044234deba7479c9ab46e40bd180, type: 3}
+      value: {fileID: 21300000, guid: dc5e2cc262023f944bd7c97e3cc4066f, type: 3}
     - time: 3
-      value: {fileID: 21300000, guid: 9ae06f95802dd3d43b8afd0356399cfb, type: 3}
+      value: {fileID: 21300000, guid: ab2f1dbbaa7b97f44ba7be7676be3e1c, type: 3}
     - time: 4
-      value: {fileID: 21300000, guid: 5227eac9bd14a674398ec69f733fe46f, type: 3}
+      value: {fileID: 21300000, guid: 504f0dcb7fd000147b8531fb96956be5, type: 3}
     - time: 5
-      value: {fileID: 21300000, guid: aa755be5d9cc4ed44ba909f7f2a150aa, type: 3}
+      value: {fileID: 21300000, guid: 284da5f97249edb41b0f52ecf4e58550, type: 3}
+    - time: 6
+      value: {fileID: 21300000, guid: d53f21455bdf43946a81ab194236e60d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -54,18 +56,19 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: a45186e1596b0e942b07bcf7fcb8c39b, type: 3}
-    - {fileID: 21300000, guid: 17158d2b8a06ac94aa07d6ebf180934c, type: 3}
-    - {fileID: 21300000, guid: e1bd044234deba7479c9ab46e40bd180, type: 3}
-    - {fileID: 21300000, guid: 9ae06f95802dd3d43b8afd0356399cfb, type: 3}
-    - {fileID: 21300000, guid: 5227eac9bd14a674398ec69f733fe46f, type: 3}
-    - {fileID: 21300000, guid: aa755be5d9cc4ed44ba909f7f2a150aa, type: 3}
+    - {fileID: 21300000, guid: 01d78c1d13d87fc47a3a374b3fcc143b, type: 3}
+    - {fileID: 21300000, guid: 1f24b7745cf21274298b2d5f8b8181ad, type: 3}
+    - {fileID: 21300000, guid: dc5e2cc262023f944bd7c97e3cc4066f, type: 3}
+    - {fileID: 21300000, guid: ab2f1dbbaa7b97f44ba7be7676be3e1c, type: 3}
+    - {fileID: 21300000, guid: 504f0dcb7fd000147b8531fb96956be5, type: 3}
+    - {fileID: 21300000, guid: 284da5f97249edb41b0f52ecf4e58550, type: 3}
+    - {fileID: 21300000, guid: d53f21455bdf43946a81ab194236e60d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 6
+    m_StopTime: 7
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -85,7 +88,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 5
+  - time: 6
     functionName: CambiarTransicion
     data: 
     objectReferenceParameter: {fileID: 0}
