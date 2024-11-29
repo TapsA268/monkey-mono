@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83eab86ff6229e84fa3b54f859ed0889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpType: 2
+  powerUpType: 1
   duration: 5
   healthAmount: 20
   defenseMultiplier: 0.5
@@ -664,7 +664,7 @@ MonoBehaviour:
   moveSpeed: 3
   attackRange: 3
   attackCooldown: 1.5
-  enemyAttackDamage: 25
+  enemyAttackDamage: 20
   audioClip: {fileID: 8300000, guid: e157c6dd5a0f26c4cac814ca42a25e8d, type: 3}
 --- !u!114 &351293725
 MonoBehaviour:
